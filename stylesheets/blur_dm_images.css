@@ -1,5 +1,7 @@
-.css-1dbjc4n.r-1habvwh.r-13awgt0 /*Received messages container*/
-.css-1dbjc4n.r-1p0dtai.r-1mlwlqe.r-1d2f490.r-1udh08x.r-u8s1d.r-zchlnj.r-ipm5af.r-417010 /*images container*/
+.css-1dbjc4n.r-1habvwh.r-13awgt0:not(.saferTwitter-unBlur) /*Received media container*/
+.css-1dbjc4n.r-1p0dtai.r-1d2f490.r-u8s1d.r-zchlnj.r-ipm5af:not(.r-sdzlij):not(.r-1niwhzg) /*images container that are not profile pictures*/
 {
-    filter:blur(1rem);/*This value in rem should be consistent between screen sizes etc, but it still need tweaking*/
+    filter:blur(1rem);
+    /*TODO : This value in rem should be consistent consistent screen sizes, but it still need tweaking*/
+    /* for example, in the "mini" message view on the twitter feed, we almost can't see anything.*/
 }

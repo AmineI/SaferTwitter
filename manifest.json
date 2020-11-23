@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "SaferTwitter",
 	"description": "Features for a safer twitter messaging experience",
-	"version": "0.2",
+	"version": "0.4",
 	"permissions": [
 		"*://twitter.com/"
 	],
