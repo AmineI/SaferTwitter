@@ -2,16 +2,23 @@
 	"manifest_version": 2,
 	"name": "SaferTwitter",
 	"description": "Features for a safer twitter messaging experience",
-	"version": "0.5",
+	"version": "0.8",
 	"permissions": [
-		"*://twitter.com/"
+		"*://*.twitter.com/*",
+		"*://*.twimg.com/*",
+		"webRequest"
 	],
 	"content_scripts": [
 		{
 			"matches": ["*://twitter.com/*"],
-			"css": ["stylesheets/blur_dm_images.css"]
+			"css": ["stylesheets/blur_dm_images.css"],
+			"js": ["contentScript.js"],
+			"run_at": "document_end"
 		}
 	],
+	"background": {
+		"scripts": ["background.js"]
+	},
 	"web_accessible_resources": [
 		"stylesheets/*"
 	]

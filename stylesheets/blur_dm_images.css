@@ -5,3 +5,11 @@
     /*TODO : This value in rem should be consistent consistent screen sizes, but it still need tweaking*/
     /* for example, in the "mini" message view on the twitter feed, we almost can't see anything.*/
 }
+
+.saferTwitter-button
+{
+    white-space: pre-wrap;
+    width: min-content;
+
+    padding: 1px;
+}
