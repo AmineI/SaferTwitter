@@ -34,6 +34,7 @@ function InjectButtonsNextToMedia(elem) {
     button_unblur.addEventListener('click', () => {
         elem.classList.toggle("saferTwitter-unBlur");
     });
+    //TODO : Auto-unblur for some (user-defined) "exception" pages
     buttonsContainer.append(button_unblur);
 
     if (elem.querySelector(categorizableImageContainerSelector)) {

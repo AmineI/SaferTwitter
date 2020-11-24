@@ -10,6 +10,7 @@ Inspired by [Chloe's post](https://twitter.com/ChloeCondon/status/13287351476177
 
 ## Features 
 
+Overview (Note that the GIF is compressed, blur does not look that bad in browser)
 ![features](res/mini-demo.gif)
 
 ### Blur by default
@@ -24,7 +25,9 @@ When clicking the relevant button, the image is sent to an online recognition se
 to obtain results about whether or not the image is NSFW. 
 
 [Imagga](https://imagga.com/) is a third party service, and by sending them images you agree to their [privacy policy](https://imagga.com/privacy).
-I know nobody skips this kind of document of course, but just in case : they basically state that no human is involved in the image categorization, and that they value personal privacy. 
+
+I know that nobody would dare skip reading this kind of document :). 
+But just in case : they basically state that no human is involved in the image categorization, and that they value personal privacy. 
 
 
 ## Notes
