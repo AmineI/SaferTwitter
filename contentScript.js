@@ -101,7 +101,7 @@ function ProcessImageCategorization(resultElement, thumbnailUrl) {
         if (categorizationResults)
             categorizationResults.forEach(({confidence, name}) => {
                 if (confidence > confidenceThreshold)
-                    text += name.en + confidence.toPrecision(3) + "% " + "\r\n";
+                    text += name.en + " " + confidence.toPrecision(3) + "%" + "\r\n";
             })
         else
             text = "Processing Error";
